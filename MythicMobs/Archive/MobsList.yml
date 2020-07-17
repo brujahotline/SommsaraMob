@@ -1,0 +1,145 @@
+
+blaze sounds for shades
+wither dies is good, used for summon spell wraith, other option knight
+default attack speed for players is 4 full str per second
+make custom weapon: 
+  - Sharp Bone:
+      attack damage: 4
+      durability: 20
+      attack speed: 1
+      suggested loot chance: 0.75
+
+Wight (Melee):
+  MobBaseType: Stray
+  MobName: Wight
+
+  Health: 30 hp
+  Damage: 7 hp
+
+  Speed:
+    Movement : 0.25
+    Attack   : 0.33
+
+  Sound:
+    Spawn    : entity.wither.ambient
+    Ambient  : entity.wither.ambient
+    Death    : entity.stray.death
+
+  Ability:
+    -Reduce Player Attack damage
+      Note: Decrease player attack damage by 50%
+      Cooldown: 20 s
+      CastSpeed: 0 s
+      Duration: 3 s
+    -
+    - 
+
+  Drop:
+    -Rotten Meat
+      - Chance: 1
+    -Iron Sword
+      - Chance: 0.1
+    -Iron Armor
+      - Chance: 0.1
+    - Iron Nugget
+      - Amount: 6
+      - Chance: 0.2
+    - Bone
+      - Chance: 0.75
+
+  Visual Effects:
+    -
+    -
+    - 
+
+  Notes:
+    -
+    -
+    - 
+
+
+Wight (Range):
+  MobBaseType: Stray
+  MobName: Wight
+
+  Health: 4 hp
+  Damage: 4 hp
+
+  Speed:
+    Movement : 0.25
+    Attack   : 0.5
+
+  Sound:
+    Spawn    : entity.wither.ambient
+    Ambient  : entity.wither.ambient
+    Death    : entity.stray.death
+
+  Ability:
+    -Burst: raise attack speed
+      AttackSpeedIncrease: 4 attack /s
+      Cooldown: 20 s
+      CastSpeed: 0 s
+      Duration: 2 s
+    -
+    - 
+
+  Drop:
+    -Rotten Meat
+    -Chainmail
+      Chance: 10 %
+    - Iron Nugget
+      Amount: 3
+      Chance: 20 %
+
+  Visual Effects:
+    -
+    -
+    - 
+
+  Notes:
+    -
+    -
+    - 
+
+Wraith:
+  MobBaseType: Wither Skeleton
+  MobName: Wraith
+
+  Health: 10 hp
+  Damage: 4 hp
+
+  Speed:
+    Movement : 0.25
+    Attack   : 0.5
+
+  Sound:
+    Spawn    : entity.wither.ambient
+    Ambient  : entity.wither.ambient
+    Death    : entity.stray.death
+
+  Ability:
+    -Burst: raise attack speed
+      AttackSpeedIncrease: 4 attack /s
+      Cooldown: 20 s
+      CastSpeed: 0 s
+      Duration: 2 s
+    -
+    - 
+
+  Drop:
+    -Rotten Meat
+    -Chainmail
+      Chance: 10 %
+    - Iron Nugget
+      Amount: 3
+      Chance: 20 %
+
+  Visual Effects:
+    -
+    -
+    - 
+
+  Notes:
+    -
+    -
+    - 
